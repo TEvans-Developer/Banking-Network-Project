@@ -36,3 +36,6 @@ Router 2911 will be used for each router on each floor. Each router is given "Fl
 <br>3. We will then use the recommended connection to connect our L3-Switch from each floor to it respected floor and the one nearest to it. This will be a Copper-Straight through cord. The connection will be as such. Floor-1 L3 Switch's Gig 1/0/1 will connect to Floor-1 Routers Gig 0/1 interface; Floor-1 L3 Switch will then be connected to Floor-2 Routers interface (any Gig interface available). We will continue to do so for each of the other L3 Switches on each floor
 
 <br>4. We will then connect each of the access layer switches for each department to both L3 switches on there respected side using the copper cross-over cord ensuring that each interface is connected in chronological order. 1 Access switch should have fa 0/1 and 0/2 connected to each LW switch on its side respectfully, where as each L3 Switch should be connected to each Access switch (Gig 1/0/3 -Gig 1/0/8).
+
+![Screenshot (120)](https://github.com/user-attachments/assets/ac826fdf-380d-4bfb-b02a-9a6b48541252)
+
