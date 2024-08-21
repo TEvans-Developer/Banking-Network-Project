@@ -31,6 +31,8 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 <h2>Design Topology.</h2>
 Router 2911 will be used for each router on each floor. Each router is given "Floor-(1-4) Router". We then will connect each router with a Serial DCE cord, but we first must must go into each individual router, turn it off, place the "HWIC-2T" module into the back of the router and turn the router back on.
 
+<br>![Screenshot (119)](https://github.com/user-attachments/assets/5c9857b4-c4e8-4f91-a37b-308c2b965283)
+
 <br>2. We will then connect the Serial DCE cord from one router to another in the serial ports. We then will connect Floor-1 Routers Gig Ethernet0/0 to Floor-4 Routers Giga Ethernet 0/0 with a Copper Cross Over cord, as well as do the same for Floor-2 to Floor-3. This will help maintain redundancy if 1 router goes down this mesh topology between the routers will help maintain a connection. 
 
 <br>3. We will then use the recommended connection to connect our L3-Switch from each floor to it respected floor and the one nearest to it. This will be a Copper-Straight through cord. The connection will be as such. Floor-1 L3 Switch's Gig 1/0/1 will connect to Floor-1 Routers Gig 0/1 interface; Floor-1 L3 Switch will then be connected to Floor-2 Routers interface (any Gig interface available). We will continue to do so for each of the other L3 Switches on each floor
