@@ -17,11 +17,11 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br> SSH will be configured in all routers for remote login, the routers will also use OSPF as the routing protocol to advertise routes. 
 
-<h3>Configuration of the devices</h3>
+<h3>Configuration of the devices***</h3>
 <i>Devices will have one or the other, Hostnames, Line Console and VTY passwords, Banner messages and disabled domain IP lookup</i>
 
-<h3>Vlan for each department</h3>
+<h3>Vlan for each department***</h3>
 <i>Each department will have a VLAN (Vlan 1, 10, 20 ...etc.) Where each VLAN will have a different subnetwork. Each subnet will be different based on the number of host in every department. A subnet mask, reusabke IP address range and broadcast address for each subnet will be made.</i>
 
-<h3>Port-security</h3>
+<h3>Port-security***</h3>
 <i> There will be sticky command to obtain MAC address and violation mode for shutdown.</i>
