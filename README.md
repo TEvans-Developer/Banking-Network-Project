@@ -84,20 +84,19 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <hr>
 
-<h3>Distribution layer (Layer 3 Switches)</h3>
+<h3>Distribution layer and Core Layer  (Layer 3 Switches & Routers)</h3>
 <br>1. First we will enable the switch in privilege access mode. We then will configure the terminal using command "conf t"
 
-<br>2. we will then give the layer 3 switch the appropriate hostname and a banner message.
+<br>2. we will then give the layer 3 switch and routers the appropriate hostname and a banner message.
 
 <br>3. We will then give the switch a password for console configuration
 
-<br>4. we will then set up the L3 switch for SSH access 
+<br>4. we will then set up the L3 switch and router for SSH access 
 
-<br>5. We will then give the device a no ip domain lookup with an enable password and service password encryption. Then save it with do wr. 
+<br>5. We will then give the devices a no ip domain lookup with an enable password and service password encryption. Then save it with do wr. 
 
 <br>![Screenshot (130)](https://github.com/user-attachments/assets/a8e2065c-e8c5-447b-833b-1cd40914ff9d)
 
 <br>![Screenshot (131)](https://github.com/user-attachments/assets/e0a1eecb-e875-473d-bc75-20252a019a3e)
-
 
 
