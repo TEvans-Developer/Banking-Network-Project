@@ -41,3 +41,11 @@ Router 2911 will be used for each router on each floor. Each router is given "Fl
 
 ![Screenshot (120)](https://github.com/user-attachments/assets/ac826fdf-380d-4bfb-b02a-9a6b48541252)
 
+
+<br>5. We now will grab 1 PC, Printer and Access point and use the recommended cord ( Copper Straight Through) and connected each of the three device to their respected switch for each floor (keep in mind of the interface you connect after using the reccommended cord option).We will have three server which we will name DHCP Server, Email Server and HTTPS Server connected to the 4th floor switch. We will name each host device connected to each switch with its assigned switch (Floor-1 MGT-SW > MGT PC,AP and Printer)
+
+<br>6. We will now need to turn on our Routers and L3 Switch so their connection can be made. We will navigate to any router and turn the port status of each of the 5 interfaces connected to "on". This can also be done in the CLI, by navigating to the to the respect #interface then typing the command #no shutdown then typing #do wr to save the change.
+
+<br>![Screenshot (121)](https://github.com/user-attachments/assets/589c38b0-496b-47c3-a69c-745f9ea670db)
+
+
