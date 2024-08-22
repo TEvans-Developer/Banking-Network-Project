@@ -75,8 +75,15 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br>5. Lastly, we will input the commands so that the switch will not misinterpert domain name and look up those that do not exist. We will also enable a password with to enable privilege access and encypt all our password. We will finish by saving our configuration by using the "do write" commands. Configure these commands in this order. no ip domain-look, enable password cisco, service password-encryption, do wr. 
 
-<br>6. These commands will be applied to all layer 2 switches with proper naming convictions. 
+<br>6. These commands will be applied to all layer 2 switches with proper naming convictions by writing them in note pad, copying and pasting in the appropriate switch. 
+
+<br>![Screenshot (129)](https://github.com/user-attachments/assets/47dc034a-55e4-4f85-a90b-edfed7024877)
+
 
 <br>![Screenshot (128)](https://github.com/user-attachments/assets/32ae2906-f718-499b-ac6c-94af2fd76344)
+
+<hr>
+
+<h3></h3>
 
 
