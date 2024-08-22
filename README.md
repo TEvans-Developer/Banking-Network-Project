@@ -59,5 +59,6 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br>8. We will now border off our devices to their respected floors and departments for later segementation. VLAN 10 - MGT, VLAN 20-RS, VLAN 30-HR, VLAN 40 -MKT, VLAN 50 -ACC, VLAN 60 - FIN, VLAN 70 - LOG, VLAN 80 - CC, VLAN 90 - GST, VLAN 10 -ADMIN, VLAN 110 - IT, VLAN 20 -SVR
 
-<br>![Screenshot (126)](https://github.com/user-attachments/assets/7cdfb2b9-0bf3-4865-9224-4dcb0cfcad59)
+<br>![Screenshot (127)](https://github.com/user-attachments/assets/eabe6eb6-b3f1-4628-893a-4750f5de3674)
+
 
