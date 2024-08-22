@@ -55,3 +55,8 @@ Router 2911 will be used for each router on each floor. Each router is given "Fl
 <br>7. We will then go to each of our L3 switches and apply a AC power supply to turn on the devices to make its connections to the other device connected to them.
 
 <br>![Screenshot (123)](https://github.com/user-attachments/assets/aa73a042-191a-4462-8c53-9f0f0fb1bffd)
+
+<br>8. We will now border off our devices to their respected floors and departments for later segementation. 
+
+<br>![Screenshot (126)](https://github.com/user-attachments/assets/7cdfb2b9-0bf3-4865-9224-4dcb0cfcad59)
+
