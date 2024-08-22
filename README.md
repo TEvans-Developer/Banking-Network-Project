@@ -61,4 +61,22 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br>![Screenshot (127)](https://github.com/user-attachments/assets/eabe6eb6-b3f1-4628-893a-4750f5de3674)
 
+<hr>
+
+<h2>Configurations /Simulation</h2>
+<h3>Access Layer (Layer 2 switches)</h3>
+<br>1. On the Floor 1 Management switch we will navigate to the "CLI" tab. We will then enable privilege access mode by using the "en" command. Then once in privilege mode we will then use the configure terminal command, "conf t" to begin configuring the switch.
+
+<br>2. We will now give the switch a hostname and a banner message. We will do so using the command "hostname F1-Mgt-SW" and banner motd #This is Floor1-Mgt switch#.
+
+<br>3. Now we will give the switch a security password that needs to be submit in order to access the configuration of the device. We will do so using the commands in order. line console 0, password cisco, login, exit
+
+<br>4. We will also give the switch a remote password for login as well. We will use the commands in this order. line vty 0 15, password cisco, login, exit.
+
+<br>5. Lastly, we will input the commands so that the switch will not misinterpert domain name and look up those that do not exist. We will also enable a password with to enable privilege access and encypt all our password. We will finish by saving our configuration by using the "do write" commands. Configure these commands in this order. no ip domain-look, enable password cisco, service password-encryption, do wr. 
+
+<br>6. These commands will be applied to all layer 2 switches with proper naming convictions. 
+
+<br>![Screenshot (128)](https://github.com/user-attachments/assets/32ae2906-f718-499b-ac6c-94af2fd76344)
+
 
