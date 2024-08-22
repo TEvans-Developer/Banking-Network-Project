@@ -29,7 +29,8 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 <hr>
 
 <h2>Design Topology.</h2>
-Router 2911 will be used for each router on each floor. Each router is given "Floor-(1-4) Router". We then will connect each router with a Serial DCE cord, but we first must must go into each individual router, turn it off, place the "HWIC-2T" module into the back of the router and turn the router back on.
+
+<br>1. Router 2911 will be used for each router on each floor. Each router is given "Floor-(1-4) Router". We then will connect each router with a Serial DCE cord, but we first must must go into each individual router, turn it off, place the "HWIC-2T" module into the back of the router and turn the router back on.
 
 <br>![Screenshot (119)](https://github.com/user-attachments/assets/5c9857b4-c4e8-4f91-a37b-308c2b965283)
 
