@@ -99,4 +99,18 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br>![Screenshot (131)](https://github.com/user-attachments/assets/e0a1eecb-e875-473d-bc75-20252a019a3e)
 
+<hr>
+
+<h2>Trunk and Access port-security</h2>
+<br>1. We will begin with connecting the Layer 2 switches from each department to each of the Layer 3 switch on their respective sides. Go into the CLI of the L2 swithc for the Mgt department. The interface in which will be the trunk ports for this device to the L3 device will be fa0/1 and fa0/2 we can use this range in our CLI. We will then turn this switch port mode into a trunk
+
+<br>2. Here we will take our int range in fa0/3-24 for all device to connect to the switch in this department. We will then configure these interface to be access ports for the respectful vlan for each department. In the Mgt department it will be Vlan 10. We then will apply switch port security to a max. of 2 devices, with mac address being obtain through sticky mode (dynamically obtained).We will then implement a shutdown violation for the port security. Then save with do wr command. 
+
+<br>3. We will continue these same commands but ensuring that we change the vlan for each department. We should be able to using the same interface ranges.
+
+<br>![Screenshot (132)](https://github.com/user-attachments/assets/d1c0200f-cb1c-4c69-81ad-ec8f5d78fd0c)
+
+<br>![Screenshot (133)](https://github.com/user-attachments/assets/1420b3bf-a98f-42ae-891d-cdf74821b961)
+
+<br>![Screenshot (134)](https://github.com/user-attachments/assets/f066b155-d30e-4ae5-b2ee-c23975c945c4)
 
