@@ -177,6 +177,14 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 <br>![Screenshot (135)](https://github.com/user-attachments/assets/816cf2ea-1810-4677-ae42-0d74b0dfd5b6)
 
 
+<h2>Switchport mode between L2 and L3 switches</h2>
+<br>1. We will find the gig interface for all the connection made from the switch ports of each department to the L3 switches. Which will be gig1/0/3 - gig1/0/8. We then will include this command as a range in the L3 switch, change to "switchport mode trunk", exit and "do wr" to safe the configuration in the CLI of each L3 switch. 
+
+<br>![Screenshot (136)](https://github.com/user-attachments/assets/8faa647d-fc7f-4538-96b4-d7b399c0cdce)
+
+<br>![Screenshot (137)](https://github.com/user-attachments/assets/b97d5045-69ca-476c-a1f7-7bb51aa1f39f)
+
+
 
 
 
