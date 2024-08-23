@@ -185,6 +185,11 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 <br>![Screenshot (137)](https://github.com/user-attachments/assets/b97d5045-69ca-476c-a1f7-7bb51aa1f39f)
 
 
+<br>2. We will then go into the L3 switch and make the layer 2 port to be a layer 3 interface, then assign IP address to the interface. in conf terminal > int range gig1/0/1-2 > no switchport > do wr
+
+<br>3. We then will give the L3 switch an IP address and subnet mask based on the networking address from earlier for each interface. 
+
+<br>![Screenshot (138)](https://github.com/user-attachments/assets/69075356-f32c-4f3a-8fca-965da42402b2)
 
 
 
