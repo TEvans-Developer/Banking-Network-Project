@@ -174,6 +174,8 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br>10.10.10.52, 255.255.255.252, 10.10.10.37 - 10.10.10.38, 10.10.10.39
 
+<br>![Screenshot (135)](https://github.com/user-attachments/assets/816cf2ea-1810-4677-ae42-0d74b0dfd5b6)
+
 
 
 
