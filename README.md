@@ -117,7 +117,9 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 <hr>
 <h2>IP addressing</h2>
 <br>1. Our base Network address will be 192.168.10.
+
 <br>2. We will now order the address for each department respectfully: Department: Network Address, Subnet Mask. Host Address Range, Broadcast Address and the Vlan it belongs to. 
+
 <br>Managment: 192.168.10.0, 255.255.255.192/26, 192.168.10.1 - 192.168.10.62, 192.168.10.63, VLAN 10
 
 <br>Research: 192.168.10.64, 255.255.255.192/26, 192.168.10.65 - 192.168.10.126, 192.168.10.127,VLAN 20
@@ -141,3 +143,38 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 <br>IT: 192.168.12.128, 255.255.255.192/26, 192.168.12.129 - 192.168.12.190, 192.168.12.191, VLAN 110
 
 <br>ServerRoom: 192.168.12.192, 255.255.255.192/26, 192.168.12.193 - 192.168.12.254, 192.168.12.255, VLAN 120
+
+<br>3. We will not give the network address between the routers and L3 switches. The base network is 10.10.10.0. Picture provided will show what network address goes to each interface. There are 14, Network Address, SubnetMask (all same), Host address Range, Broadcast address.
+
+<br>10.10.10.0, 255.255.255.252, 10.10.10.33 - 10.10.10.34, 10.10.10.35
+
+<br>10.10.10.4, 255.255.255.252, 10.10.10.37 - 10.10.10.38, 10.10.10.39
+
+<br>10.10.10.8, 255.255.255.252, 10.10.10.41 - 10.10.10.42, 10.10.10.43
+
+<br>10.10.10.12, 255.255.255.252, 10.10.10.45 - 10.10.10.46, 10.10.10.47
+
+<br>10.10.10.16, 255.255.255.252, 10.10.10.49 - 10.10.10.50, 10.10.10.51
+
+<br>10.10.10.20, 255.255.255.252, 10.10.10.53 - 10.10.10.54, 10.10.10.55
+
+<br>10.10.10.24, 255.255.255.252, 10.10.10.33 - 10.10.10.34, 10.10.10.35
+
+<br>10.10.10.28, 255.255.255.252, 10.10.10.37 - 10.10.10.38, 10.10.10.39
+
+<br>10.10.10.32, 255.255.255.252, 10.10.10.41 - 10.10.10.42, 10.10.10.43
+
+<br>10.10.10.36, 255.255.255.252, 10.10.10.45 - 10.10.10.46, 10.10.10.47
+
+<br>10.10.10.40, 255.255.255.252, 10.10.10.49 - 10.10.10.50, 10.10.10.51
+
+<br>10.10.10.44, 255.255.255.252, 10.10.10.53 - 10.10.10.54, 10.10.10.55
+
+<br>10.10.10.48, 255.255.255.252, 10.10.10.33 - 10.10.10.34, 10.10.10.35
+
+<br>10.10.10.52, 255.255.255.252, 10.10.10.37 - 10.10.10.38, 10.10.10.39
+
+
+
+
+
