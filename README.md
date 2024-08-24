@@ -224,3 +224,12 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 <br>2. (DHCP): We want to go to our DHCP server and navigate to our services tab. We will then create a pool for each of the departments. Click on DHCP and turn on service. We will give each department a pool name, default gateway , a starting IP address and a maximum number of users. In the example of our Mgt-Pool we use a default gatway 192.168.10.1 , start the ip address at 192.168.10.6 (skip every 5 from the gateway) with a max of 60 users. We then add it to the server (Note the max user may change to 58, that is okay)
 
 <br>![Screenshot (144)](https://github.com/user-attachments/assets/88ba533d-b999-4447-83ca-886addb4fcde)
+
+<hr>
+<h2>Inter-VLAN routing for L3 Switches and IP DHCP helper addresses</h2>
+
+<br> We fisrt want to creat the vlans 10-60 on the Floor1 layer3 switch. We do so by configuring the terminal and entering the vlans. We will "do show start" to see the names of the vlan to verfiy their creation. 
+
+<br>We now will enter "int vlan 10" in the CLI command line > no shutdown > ip helper-address 192.168.12.196. We will not have a helper address for vlan 120 as they are the server in which we gave a IP address statically. Continue this same proccess on both side changing Vlan numbers and IP as needed. 
+
+<br>
