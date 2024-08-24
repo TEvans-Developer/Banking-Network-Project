@@ -232,4 +232,31 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br>We now will enter "int vlan 10" in the CLI command line > no shutdown > ip helper-address 192.168.12.196. We will not have a helper address for vlan 120 as they are the server in which we gave a IP address statically. Continue this same proccess on both side changing Vlan numbers and IP as needed. 
 
-<br>
+<br>![Screenshot (152)](https://github.com/user-attachments/assets/fcf60a81-8c71-43fa-af48-1e2bed13387d)
+
+<hr>
+<h2>Applying DNS server, testing connection and configuration</h2>
+
+<br>1. We will test to see if the DHCP server is working as well as to see if it applys a dynamic ip address to our devices when it is in this statues. Go to each PC , click on Desktop > IP configuration > DHCP (button)... DHCP request successful should appear. If not there may be a VLAN configuration error in which you will need to go back into each L3 switch and make sure every VLAN and IP address applied to that L3 switch is configured. 
+
+<br>![Screenshot (147)](https://github.com/user-attachments/assets/f9644188-9e2c-45bb-9235-d682fb7ace4b)
+
+
+<br>2. We will first want to find our DHCP server IP address in the Desktop > IP configuration. We will then navigate to the DHCP tab under Services within the DHCP server. We will then apply the DNS server IP address to each of the pools we created and click save. Notice when you go into one of the PC devices the DNS server name will appear. 
+
+<br>![Screenshot (148)](https://github.com/user-attachments/assets/fd26945b-fc4a-4adf-aec8-d3ab7ac2ebb1)
+
+
+<br>![Screenshot (149)](https://github.com/user-attachments/assets/4ec7fccf-8fa0-448d-8a86-4296f9a8e827)
+
+
+<br>3. We will then navigate to DNS tab on the DHCP server and turn the DNS service on, We will give the DNS a name and apply the same ip address from our DHCP server and click add and save. We will then go to Desktop > Website and type in the name of the DNS we just created and it should take us to our website.
+
+<br>![Screenshot (151)](https://github.com/user-attachments/assets/2d97c47d-deb3-4945-b593-ae915c7fe613)
+
+
+<br>![Screenshot (150)](https://github.com/user-attachments/assets/f9013f09-fd59-4220-b9e4-8d4b0b342e96)
+
+
+
+
