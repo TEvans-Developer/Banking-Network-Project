@@ -203,4 +203,15 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br>![Screenshot (139)](https://github.com/user-attachments/assets/4e918b2b-cbc5-4132-b8b5-1b8600e4fe75)
 
+<h2>OSPF the Routers and Departments</h2>
+
+<br>1. We will first start with going to a router. We will then go into the CLI of the router and enter the command line "router ospf 10". We will then  use command "network (each individual network ip address connected to it) 0.0.0.3 area 0. We will do this for each router and do wr after each. 
+
+<br>![Screenshot (140)](https://github.com/user-attachments/assets/184a71f6-c5bf-4dda-bf4b-57c4eac71209)
+
+<br>2. We will continue to go to the Floor 1 L3's CLI and input  command ip routing, from here we will continue as we did in the previous instruction and apply the network to the two routers it is connected to 10.10.10.0 and  10.10.10.8 with a 0.0.0.3 and area 0. We will then connect to the 6 other networks it is connected to from each department with their respected IP address with a  0.0.0.63 with the same area. We will continue this method with all the other switches with their respected 8  network connections finishing each with do wr to save the configuration.
+
+<br>![Screenshot (142)](https://github.com/user-attachments/assets/1bc15aa1-2a8f-493c-a799-0a9d2c1ef332)
+
+
 
