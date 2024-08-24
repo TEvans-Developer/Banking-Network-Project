@@ -257,6 +257,8 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br>![Screenshot (150)](https://github.com/user-attachments/assets/f9013f09-fd59-4220-b9e4-8d4b0b342e96)
 
+<hr>
 
+<h2> Wireless network configurations</h2>
 
 
