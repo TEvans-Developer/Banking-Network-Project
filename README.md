@@ -203,7 +203,7 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <br>![Screenshot (139)](https://github.com/user-attachments/assets/4e918b2b-cbc5-4132-b8b5-1b8600e4fe75)
 
-<h2>OSPF the Routers and Departments</h2>
+<h2>OSPF the Routers and Layer 3 switches</h2>
 
 <br>1. We will first start with going to a router. We will then go into the CLI of the router and enter the command line "router ospf 10". We will then  use command "network (each individual network ip address connected to it) 0.0.0.3 area 0. We will do this for each router and do wr after each. 
 
@@ -214,4 +214,13 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 <br>![Screenshot (142)](https://github.com/user-attachments/assets/1bc15aa1-2a8f-493c-a799-0a9d2c1ef332)
 
 
+<hr>
+<h2>Configure Servers Statically</h2>
 
+<br>1. We first want to configure the IP address of our server. We will go into the Desktop of the server and input an IPv4 address, Subnet Mask and Default Gatewary for each server. Our DHCP ip address will be 192.168.12.196, EMAIL ip address will be 192.168.12.197, HTTPS Server ip address  will be 192.168.12.198. Our Subnet and Default Gateway will be 255.255.255.192 and 192.168.12.193. 
+
+<br>![Screenshot (143)](https://github.com/user-attachments/assets/3e6bbf03-97ee-4f14-9424-8d201b65957d)
+
+<br>2. (DHCP): We want to go to our DHCP server and navigate to our services tab. We will then create a pool for each of the departments. Click on DHCP and turn on service. We will give each department a pool name, default gateway , a starting IP address and a maximum number of users. In the example of our Mgt-Pool we use a default gatway 192.168.10.1 , start the ip address at 192.168.10.6 (skip every 5 from the gateway) with a max of 60 users. We then add it to the server (Note the max user may change to 58, that is okay)
+
+<br>![Screenshot (144)](https://github.com/user-attachments/assets/88ba533d-b999-4447-83ca-886addb4fcde)
