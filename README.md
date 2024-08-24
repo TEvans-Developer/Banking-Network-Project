@@ -259,6 +259,28 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 
 <hr>
 
-<h2> Wireless network configurations</h2>
+<h2> Wireless network configurations (Access Point) and other verifications </h2>
+
+<br>1. For this demostration of configuring a access point we will click on the FIN-AP. We will then go to config > port 1 > and give the device a wifi name (Finance-Wifi) as well as a WPA2-PSK password (Finance@2024). We will then grab a laptop from our end point devices. We will need to turn off the pc, apply a wireless card (WPC300N), then turn it back on. We will then go to Desktop > wireless connection > connect > Refresh and find out Finance-Wif. We will connect and apply our password which will then connect to our access point. We will then find out laptop ip address and ping it from anothe pc in any network to make our connection (note the first packet will fail but the other should ping; try).
+
+<br>![Screenshot (153)](https://github.com/user-attachments/assets/4f944c85-8623-4a81-b7f9-686e52327812)
+
+<br>![Screenshot (154)](https://github.com/user-attachments/assets/a0debf2f-13c7-4357-9be0-db085212f817)
+
+<br>![Screenshot (155)](https://github.com/user-attachments/assets/934135ab-79b3-4e6d-ac09-6812e4ae7726)
+
+<br>![Screenshot (156)](https://github.com/user-attachments/assets/fb57ea92-5163-4ec7-8161-b09cd0c5c5fa)
+
+
+<br>2. Now try pinging other PCS across networks. 
+
+<br>![Screenshot (157)](https://github.com/user-attachments/assets/89b5fbad-2a0d-4598-9bf6-6afd25ab4dc8)
+
+<hr>
+
+<h2>Reference</h2>
+
+<br>https://www.youtube.com/watch?v=NLMqmaBvD8Q
+
 
 
