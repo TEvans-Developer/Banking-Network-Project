@@ -192,4 +192,15 @@ This banking network project I will be using CISCO Packet Tracer to demostartes 
 <br>![Screenshot (138)](https://github.com/user-attachments/assets/69075356-f32c-4f3a-8fca-965da42402b2)
 
 
+<hr>
+<h2>Configure IP address to Routers</h2>
+
+<br>1. We will take the interface of our router, for example gig0/1 on the 10.10.10.3/30 network. We will then use IP address 10.10.10.2 in our configuration becuase we already used 10.10.10.1 for the L3 switch. The subnet will remain the same from last time. 
+
+<br>2. for the connection the the router on floor 4, it will be the same  type of configuration with the next ip address 10.10.10.29 with the same subnet on gig0/0
+
+<br>3.For the connection with the serial port we will use the port with the clocked se port. We will use that interface and apply the IP address on it as well as the clock rate of 64000. Note, ports without the se do not need a clock rating After we will do wr and continue to configure the remaining routers. 
+
+<br>![Screenshot (139)](https://github.com/user-attachments/assets/4e918b2b-cbc5-4132-b8b5-1b8600e4fe75)
+
 
